@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for eBay Lovers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png"style="width: 20%; height: auto;"/>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="analysis.html">Analysis</a></li>
+          <li><a href="hotlist.html">Trending</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="hiddengems.html">Hidden Gems</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Main Section -->
+  <main>
+    <div class="container">
+      <h1>Hot List of Trending Vintage Clothing</h1>
+      <p>Check out the most popular vintage clothing items trending on eBay right now! Based on demand, watch count, and sales.</p>
+
+      <!-- Filters Section (Optional) -->
+      <div class="filters">
+        <h3>Filter Items</h3>
+        <form>
+          <label for="category">Category:</label>
+          <select id="category">
+            <option value="all">All Categories</option>
+            <option value="jackets">Jackets</option>
+            <option value="shirts">Shirts</option>
+            <option value="dresses">Dresses</option>
+            <option value="pants">Pants</option>
+          </select>
+
+          <label for="price-range">Price Range:</label>
+          <input type="range" id="price-range" min="0" max="1000" step="10">
+
+          <button type="submit">Apply Filters</button>
+        </form>
+      </div>
+
+      <!-- Hot List Items Grid -->
+      <div class="item-grid">
+        <!-- Item 1 -->
+        <div class="item-card">
+          <img src="vintage-jacket.jpg" alt="Vintage Levi's Jacket">
+          <h3>1980s Vintage Levi's Denim Jacket</h3>
+          <p class="price">$99.99</p>
+          <p class="watch-count">Watch Count: 150</p>
+          <a href="https://www.ebay.com/itm/1234567890" target="_blank" class="btn-watch-now">Watch Now</a>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item-card">
+          <img src="vintage-shirt.jpg" alt="Vintage Band T-shirt">
+          <h3>Vintage 90s Band T-shirt</h3>
+          <p class="price">$49.99</p>
+          <p class="watch-count">Watch Count: 200</p>
+          <a href="https://www.ebay.com/itm/0987654321" target="_blank" class="btn-watch-now">Watch Now</a>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item-card">
+          <img src="vintage-dress.jpg" alt="Vintage Floral Dress">
+          <h3>Vintage Floral Summer Dress</h3>
+          <p class="price">$69.99</p>
+          <p class="watch-count">Watch Count: 120</p>
+          <a href="https://www.ebay.com/itm/1122334455" target="_blank" class="btn-watch-now">Watch Now</a>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="item-card">
+          <img src="vintage-jacket-2.jpg" alt="Vintage Leather Jacket">
+          <h3>Vintage Brown Leather Jacket</h3>
+          <p class="price">$149.99</p>
+          <p class="watch-count">Watch Count: 80</p>
+          <a href="https://www.ebay.com/itm/5566778899" target="_blank" class="btn-watch-now">Watch Now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 For eBay Lovers | All Rights Reserved</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for eBay Lovers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png"style="width: 20%; height: auto;"/>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="analysis.html">Analysis</a></li>
+          <li><a href="hotlist.html">Trending</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="hiddengems.html">Hidden Gems</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <section class="search-bar">
+      <div class="container">
+        <h2>Analasis of eBay Item</h2>
+        <input type="text" id="search-input" placeholder="Search for item (e.g., laptop, phone)" />
+        <button id="search-btn">Search</button>
+      </div>
+    </section>
+
+    <section class="items-section">
+      <div class="container">
+        <h3>Top Trending Items</h3>
+        <div id="items-list" class="items-list">
+          <!-- Dynamically populated by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 eBay Tracker. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
